@@ -1,11 +1,10 @@
 .expense-item {
   display: flex;
-  margin: 1rem;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
   margin: 1rem 0;
-  background-color: #3d3d3d8e;
+  background-color: #4b4b4b;
 }
 
 .expense-item__description {
@@ -51,11 +50,5 @@
   .expense-item__price {
     font-size: 1.25rem;
     padding: 0.5rem 1.5rem;
-  }
-  .expense-item__date {
-    font-size: 1rem;
-    font-weight: bold;
-
-    color: #fff;
   }
 }
